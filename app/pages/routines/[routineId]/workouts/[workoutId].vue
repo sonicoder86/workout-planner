@@ -26,6 +26,30 @@ if (!workout) {
 <template>
   <div>
     <h1 class="text-lg font-bold pl-1 pt-1">{{ routine.name }} - {{ workout.name }}</h1>
+
+    <div>
+      <table class="table">
+        <thead>
+        <tr>
+          <th>Name</th>
+          <th>Sets</th>
+          <th>Reps</th>
+          <th>1RM</th>
+          <th>RPE</th>
+        </tr>
+        </thead>
+
+        <tbody>
+          <tr v-for="(exercise, i) in workout.exercises" :key="`exercise_${exercise.id}`">
+            <td>{{ exercise.name }}</td>
+            <td>{{ exercise.sets }}</td>
+            <td>{{ exercise.reps }}</td>
+            <td>{{ exercise.one_rm ? `${exercise.one_rm}%` : '' }}</td>
+            <td>{{ exercise.rpe ? exercise.rpe : '' }}</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
   </div>
 </template>
 
