@@ -17,7 +17,7 @@
         </div>
       </div>
       <div class="navbar-center">
-        <a class="btn btn-ghost text-xl">Workout Planner</a>
+        <NuxtLink to="/" class="btn btn-ghost text-xl">Workout Planner</NuxtLink>
       </div>
       <div class="navbar-end">
         <button class="btn btn-ghost btn-circle">
