@@ -38,7 +38,20 @@ export const routines: Routine[] = [
           { id: 5, name: 'Helms Row', sets: 3, reps: 12, one_rm: 0, rpe: 9, rest: 2 },
           { id: 6, name: 'Hammer Curl', sets: 3, reps: 12, one_rm: 0, rpe: 10, rest: 2 },
         ],
-      }
+      },
+      {
+        id: 2,
+        name: 'Full Body 2: Deadlift, Bench Press',
+        exercises: [
+          { id: 1, name: 'Deadlift', sets: 3, reps: 4, one_rm: 80, rpe: 7.5, rest: 4 },
+          { id: 2, name: 'Bench Press', sets: 1, reps: 3, one_rm: 85, rpe: 0, rest: 3 },
+          { id: 3, name: 'Bench Press', sets: 2, reps: 10, one_rm: 60, rpe: 0, rest: 3 },
+          { id: 4, name: 'Hip Abduction', sets: 3, reps: 15, one_rm: 0, rpe: 7, rest: 2 },
+          { id: 5, name: 'Weighted Pull Up', sets: 3, reps: 6, one_rm: 0, rpe: 9, rest: 2 },
+          { id: 6, name: 'Skull Crusher', sets: 3, reps: 12, one_rm: 0, rpe: 10, rest: 2 },
+          { id: 7, name: 'Calf Raise', sets: 3, reps: 10, one_rm: 0, rpe: 10, rest: 2 },
+        ],
+      },
     ],
   },
   {
