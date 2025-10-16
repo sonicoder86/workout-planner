@@ -25,7 +25,7 @@
         </button>
       </div>
     </div>
-    <div class="px-3 flex-1">
+    <div class="px-3 flex flex-col flex-1">
       <NuxtPage />
     </div>
 <!--    <div>Footer</div>-->
